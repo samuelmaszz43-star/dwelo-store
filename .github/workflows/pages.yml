@@ -19,7 +19,7 @@ jobs:
     steps:
       - uses: actions/checkout@v6
       - name: Extract storefront
-        run: unzip -o dwelo-site.zip -d _site
+        run: unzip -o dwelo-site-actuel.zip -d _site
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v4
         with:
